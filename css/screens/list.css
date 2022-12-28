@@ -1,0 +1,27 @@
+.sort {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.sort span {
+    margin-left: 10px;
+}
+
+.review-list__element {
+    display: flex;
+    margin: 15px 0px;
+}
+
+.review-list__element .photo {
+    border: 1px solid black;
+    width: 25%;
+    height: 150px;
+}
+
+.review-list__element .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+

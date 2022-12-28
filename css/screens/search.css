@@ -1,0 +1,39 @@
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+#search__box,
+#search__magnifying-glass {
+    border: none;
+    background-color: transparent;
+    font-family: 'GangwonEdu_OTFBoldA';
+}
+
+#search__box:hover {
+    border-bottom: 1px solid gray;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-list__element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 15px;
+}
+
+.movie-list__element .photo {
+    border: 1px solid black;
+    width: 100%;
+    height: 150px;
+}
+
+.movie-list__element .title {
+    padding-top: 10px;
+}

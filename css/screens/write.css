@@ -1,0 +1,10 @@
+.text-area {
+    text-align: center;
+    width: 100%;
+}
+.text-area input[type="text"] {
+    padding: 0px;
+    margin: 15px 0px;
+    width: 100%;
+    border: none;
+}

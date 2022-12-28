@@ -1,0 +1,29 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/screen-header.css";
+@import "components/star-score.css";
+@import "components/button.css";
+
+/* Screens */
+@import "screens/home.css";
+@import "screens/search.css";
+@import "screens/select.css";
+@import "screens/write.css";
+@import "screens/list.css";
+
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'GangwonEdu_OTFBoldA';
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
